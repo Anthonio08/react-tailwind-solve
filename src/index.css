@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  /* On crée une couleur personnalisée nommée "brand" */
+  --color-brand: #5F00FF;
+}
+/* Configuration globale de notre maquette Solve */
+body {
+  background-color: #050020;
+  color: white;
+}
