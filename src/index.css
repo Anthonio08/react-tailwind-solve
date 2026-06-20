@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Paytone+One&family=Ubuntu:wght@400;500;700&display=swap');
 @import "tailwindcss";
 
 @theme {
   /* On crée une couleur personnalisée nommée "brand" */
   --color-brand: #5F00FF;
+  --font-navbar: "Ubuntu", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-logo: "Paytone One", sans-serif;
 }
 /* Configuration globale de notre maquette Solve */
 body {

@@ -4,9 +4,9 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         
-        <nav className="relative flex items-center justify-between mt-6 lg:mt-11 h-20 lg:h-25 px-6 lg:pl-12 lg:pr-4  bg-white/5 backdrop-blur-md rounded-full lg:rounded-[110px] py-4 lg:py-6 text-white w-[95%] max-w-360 mx-auto transition-all">
+        <nav className="relative flex items-center justify-between mt-6 lg:mt-11 h-20 lg:h-20 px-6 lg:pl-12 lg:pr-4  bg-white/5 backdrop-blur-md rounded-full lg:rounded-[110px] py-4 lg:py-6 text-white w-[95%] max-w-360 mx-auto transition-all">
             {/* Brand Logo*/}
-            <div className="text-[clamp(24px,2.5vw,30px)] font-bold tracking-wide cursor-pointer  ">
+            <div className="font-logo text-[clamp(24px,2.5vw,30px)] tracking-wide cursor-pointer  ">
                 SOLVE.
             </div>
 
@@ -27,7 +27,7 @@ export default function Navbar() {
 
             {/* Navigation links */}
             <div className="hidden lg:flex absolute left-1/2 -translate-x-1/2">
-                <ul className="flex items-center gap-8 xl:gap-16 text-[clamp(16px,1.2vw,16px)]">
+                <ul className="flex items-center gap-8 xl:gap-16 text-[clamp(16px,1.2vw,16px)] font-navbar">
                     <li className="text-white/75 cursor-pointer hover:text-white transition-colors">Home</li>
                     <li className="text-white/75 cursor-pointer hover:text-white transition-colors">Services</li>
                     <li className="text-white/75 cursor-pointer hover:text-white transition-colors">Achievement</li>
@@ -61,7 +61,7 @@ export default function Navbar() {
                     </ul>
                     
                     <div className="flex flex-col gap-4 mt-2">
-                        <button className="w-full py-3 text-[clamp(14px,1vw,15px)] font-medium text-white bg-white/10 rounded-full hover:bg-white/20 transition-colors cursor-pointer">
+                        <button className="font-body font-semiboldw-full py-3 text-[clamp(14px,1vw,15px)] font-medium text-white bg-white/10 rounded-full hover:bg-white/20 transition-colors cursor-pointer">
                             Sign Up
                         </button>
                         <button className="w-full py-3 text-[clamp(14px,1vw,15px)] font-medium text-white bg-brand rounded-full hover:bg-brand/80 transition-colors shadow-[0_0_15px_rgba(95,0,255,0.5)] cursor-pointer">
